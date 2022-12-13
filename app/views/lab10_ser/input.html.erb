@@ -1,0 +1,14 @@
+<h1>Лабораторная работа 10</h1>
+<%= form_with url: lab10_ser_show_path, data: {turbo: false}, method: :get do |form|%>
+<%= form.label('Число:')%>
+<%= form.number_field(:numb)%> <br> <br>
+<%= form.radio_button :format, 'xml' %>
+<%= form.label :format_xml_label, "XML" %>
+<%= form.radio_button :format, "html-server" %>
+<%= form.label :format_html_label, "HTML-сервер" %> 
+<%= form.radio_button :format, "html-client" %>
+<%= form.label :format_html_label, "HTML-клиент" %> <br> <br>
+<%= form.submit('Проверить', id: 'check_button')%>
+<% end%>
+<br>
+<%= flash[:notice]%>

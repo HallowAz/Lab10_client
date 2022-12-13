@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects type="array">
+  <object>
+    <key type="integer">0</key>
+    <val>1999</val>
+  </object>
+  <object>
+    <key type="integer">1</key>
+    <val>11990</val>
+  </object>
+  <object>
+    <key type="integer">2</key>
+    <val>21901</val>
+  </object>
+  <object>
+    <key type="integer">3</key>
+    <val>32813</val>
+  </object>
+  <object>
+    <key type="integer">4</key>
+    <val>64636</val>
+  </object>
+  <object>
+    <key type="integer">5</key>
+    <val>128282</val>
+  </object>
+  <object>
+    <key type="integer">6</key>
+    <val>411103</val>
+  </object>
+  <object>
+    <key type="integer">7</key>
+    <val>712217</val>
+  </object>
+</objects>
